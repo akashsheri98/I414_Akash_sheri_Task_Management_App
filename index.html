@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- App title -->
+    <h1>Task Management App</h1>
+    
+    <!-- Notification area for displaying messages -->
+    <div id="notification" class="notification"></div>
+    
+    <!-- Task input form -->
+    <div class="task-form">
+        <!-- Task title input -->
+        <div class="form-group">
+            <label for="taskTitle">Task Title</label>
+            <input type="text" id="taskTitle" placeholder="Enter task title" required>
+        </div>
+        
+        <!-- Task description textarea -->
+        <div class="form-group">
+            <label for="taskDescription">Description</label>
+            <textarea id="taskDescription" placeholder="Enter task description"></textarea>
+        </div>
+        
+        <!-- Due date and priority selector row -->
+        <div class="form-row">
+            <div class="form-group">
+                <label for="taskDueDate">Due Date</label>
+                <input type="date" id="taskDueDate">
+            </div>
+            
+            <div class="form-group">
+                <label for="taskPriority">Priority</label>
+                <select id="taskPriority">
+                    <option value="low">Low</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- Form action buttons -->
+        <button id="addTask">Add Task</button>
+        <button id="updateTask" style="display: none;">Update Task</button>
+        <button id="cancelEdit" style="display: none;">Cancel</button>
+    </div>
+    
+    <!-- Task filtering options -->
+    <div class="filters">
+        <!-- Search box for filtering tasks by text -->
+        <div class="search-box">
+            <input type="text" id="searchTask" placeholder="Search tasks...">
+        </div>
+        
+        <!-- Dropdown for filtering by task status -->
+        <div class="filter-options">
+            <select id="statusFilter">
+                <option value="all">All Tasks</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+            </select>
+        </div>
+    </div>
+    
+    <!-- Container for displaying task list -->
+    <div id="taskList" class="task-list">
+        <!-- Initial empty state message -->
+        <div class="empty-state">
+            <p>No tasks yet. Add a new task to get started!</p>
+        </div>
+    </div>
+
+    <!-- Link to JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
