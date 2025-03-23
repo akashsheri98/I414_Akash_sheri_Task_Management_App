@@ -101,3 +101,5 @@ Potential future improvements:
 - Data export/import functionality
 - Drag and drop reordering
 
+# -----------------------------------------
+
