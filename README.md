@@ -2,6 +2,8 @@
 
 A simple, minimalistic task management application built with vanilla JavaScript, HTML, and CSS. This application allows users to add, edit, delete, and view tasks, as well as filter and search through their task list.
 
+# Live Demo
+https://akashsheri98.github.io/I414_Akash_sheri_Task_Management_App/
 ## Features
 
 ### Core Features
@@ -25,12 +27,13 @@ A simple, minimalistic task management application built with vanilla JavaScript
 
 1. Clone the repository or download the ZIP file
    ```
-   git clone https://github.com/yourusername/task-management-app.git
+   git clone https://github.com/akashsheri98/I414_Akash_sheri_Task_Management_App.git
+   
    ```
 
 2. Navigate to the project directory
    ```
-   cd task-management-app
+   cd I414_Akash_sheri_Task_Management_App
    ```
 
 3. Open `index.html` in your web browser
