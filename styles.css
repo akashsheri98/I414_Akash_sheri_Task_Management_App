@@ -280,6 +280,12 @@ button.complete:hover {
     margin-bottom: 20px;
 }
 
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #7f8c8d;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     .form-row {
