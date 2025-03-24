@@ -25,12 +25,13 @@ A simple, minimalistic task management application built with vanilla JavaScript
 
 1. Clone the repository or download the ZIP file
    ```
-   git clone https://github.com/yourusername/task-management-app.git
+   git clone https://github.com/akashsheri98/I414_Akash_sheri_Task_Management_App.git
+   
    ```
 
 2. Navigate to the project directory
    ```
-   cd task-management-app
+   cd I414_Akash_sheri_Task_Management_App
    ```
 
 3. Open `index.html` in your web browser
